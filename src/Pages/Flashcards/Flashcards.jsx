@@ -1,6 +1,6 @@
 import React from 'react';
-import shuffle from './shuffle';
 import { useParams } from "react-router-dom";
+import fetchData from '../../shared/fetch-data';
 
 import './Flashcards.css';
 
@@ -9,10 +9,10 @@ class Flashcards extends React.Component {
   constructor(props) {
     super(props);
 
+    this.fetchData = fetchData.bind(this);
     this.nextCard = this.nextCard.bind(this);
     this.prevCard = this.prevCard.bind(this);
     this.revealAnswer = this.revealAnswer.bind(this);
-    this.fetchData = this.fetchData.bind(this);
 
     this.language = props.match.params.language;
 
@@ -26,23 +26,6 @@ class Flashcards extends React.Component {
 
   componentDidMount() {
     this.fetchData();
-  }
-
-  fetchData() {
-    const self = this;
-
-    this.setState({ isLoading: true });
-
-    fetch(process.env.PUBLIC_URL + '/data.json').
-      then(function(response) { return response.json(); }).
-      then(function(result) {
-        const cards = JSON.parse(JSON.stringify(result.data[self.language].alphabet));
-        self.setState({
-          cards: shuffle(cards),
-          isLoading: false,
-          currentIndex: 0
-        });
-      });
   }
 
   nextCard() {
