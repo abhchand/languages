@@ -11,7 +11,7 @@ class App extends React.Component {
       <BrowserRouter>
         <Switch>
           <Route path="/languages/" exact component={Home} />
-          <Route path="/languages/flashcards/:language" component={Flashcards} />
+          <Route path="/languages/:language/letters/flashcards" component={Flashcards} />
         </Switch>
       </BrowserRouter>
     );
