@@ -1,5 +1,6 @@
 import React from 'react';
 import shuffle from './shuffle';
+import { useParams } from "react-router-dom";
 
 import './Flashcards.css';
 
@@ -10,6 +11,8 @@ class Flashcards extends React.Component {
 
     this.nextCard = this.nextCard.bind(this);
     this.fetchData = this.fetchData.bind(this);
+
+    this.language = props.match.params.language;
 
     this.state = {
       cards: [],
@@ -31,7 +34,7 @@ class Flashcards extends React.Component {
     fetch(process.env.PUBLIC_URL + '/data.json').
       then(function(response) { return response.json(); }).
       then(function(result) {
-        const cards = JSON.parse(JSON.stringify(result.data.tamil.alphabet));
+        const cards = JSON.parse(JSON.stringify(result.data[self.language].alphabet));
         self.setState({
           cards: shuffle(cards),
           isLoading: false,
