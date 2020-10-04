@@ -1,0 +1,248 @@
+{
+  "data": {
+    "tamil": {
+      "alphabet": [
+        {
+          "char": "க்",
+          "pronounce": "k",
+          "example": "kit"
+        },
+        {
+          "char": "ங்",
+          "pronounce": "ṅ",
+          "example": "noon"
+        },
+        {
+          "char": "ச்",
+          "pronounce": "c",
+          "example": "cow"
+        },
+        {
+          "char": "ஞ்",
+          "pronounce": "ñ",
+          "example": "Canyon"
+        },
+        {
+          "char": "ட்",
+          "pronounce": "ṭ",
+          "example": "toy"
+        },
+        {
+          "char": "ண்",
+          "pronounce": "ṇ",
+          "example": "news"
+        },
+        {
+          "char": "த்",
+          "pronounce": "t",
+          "example": "time"
+        },
+        {
+          "char": "ந்",
+          "pronounce": "n",
+          "example": "night"
+        },
+        {
+          "char": "ப்",
+          "pronounce": "p",
+          "example": "pool"
+        },
+        {
+          "char": "ம்",
+          "pronounce": "m",
+          "example": "man"
+        },
+        {
+          "char": "ய்",
+          "pronounce": "y",
+          "example": "you"
+        },
+        {
+          "char": "ர்",
+          "pronounce": "r",
+          "example": "rabbit"
+        },
+        {
+          "char": "ல்",
+          "pronounce": "l",
+          "example": "lion"
+        },
+        {
+          "char": "வ்",
+          "pronounce": "v",
+          "example": "very"
+        },
+        {
+          "char": "ழ்",
+          "pronounce": "ḻ",
+          "example": "red"
+        },
+        {
+          "char": "ள்",
+          "pronounce": "ḷ",
+          "example": "look"
+        },
+        {
+          "char": "ற்",
+          "pronounce": "ṟ",
+          "example": "room"
+        },
+        {
+          "char": "ன்",
+          "pronounce": "ṉ",
+          "example": "night"
+        },
+        {
+          "char": "ஶ்",
+          "pronounce": "ś",
+          "example": "show"
+        },
+        {
+          "char": "ஜ்",
+          "pronounce": "j",
+          "example": "joke"
+        },
+        {
+          "char": "ஷ்",
+          "pronounce": "ṣ",
+          "example": "smile"
+        },
+        {
+          "char": "ஸ்",
+          "pronounce": "s",
+          "example": "small"
+        },
+        {
+          "char": "ஹ்",
+          "pronounce": "h",
+          "example": "high"
+        },
+        {
+          "char": "க்ஷ்",
+          "pronounce": "kṣ",
+          "example": "racks"
+        },
+        {
+          "char": "அ",
+          "pronounce": "a",
+          "example": "apple"
+        },
+        {
+          "char": "ஆ",
+          "pronounce": "ā",
+          "example": "father"
+        },
+        {
+          "char": "இ",
+          "pronounce": "i",
+          "example": "tip"
+        },
+        {
+          "char": "ஈ",
+          "pronounce": "ī",
+          "example": "deep"
+        },
+        {
+          "char": "உ",
+          "pronounce": "u",
+          "example": "ultimate"
+        },
+        {
+          "char": "ஊ",
+          "pronounce": "ū",
+          "example": "moon"
+        },
+        {
+          "char": "எ",
+          "pronounce": "e",
+          "example": "elephant"
+        },
+        {
+          "char": "ஏ",
+          "pronounce": "ē",
+          "example": "weed"
+        },
+        {
+          "char": "ஐ",
+          "pronounce": "ai",
+          "example": "Thai"
+        },
+        {
+          "char": "ஒ",
+          "pronounce": "o",
+          "example": "opera"
+        },
+        {
+          "char": "ஓ",
+          "pronounce": "ō",
+          "example": "moon"
+        },
+        {
+          "char": "ஔ",
+          "pronounce": "au",
+          "example": "bowl"
+        },
+        {
+          "char": "க (க் + அ)",
+          "pronounce": "ka",
+          "example": "cat"
+        },
+        {
+          "char": "கா (க் + ஆ)",
+          "pronounce": "kā",
+          "example": "cow"
+        },
+        {
+          "char": "கி (க் + இ)",
+          "pronounce": "ki",
+          "example": "kit"
+        },
+        {
+          "char": "கீ (க் + ஈ)",
+          "pronounce": "kī",
+          "example": "kiwi"
+        },
+        {
+          "char": "கு (க் + உ)",
+          "pronounce": "ku",
+          "example": "Kung-fu"
+        },
+        {
+          "char": "கூ (க் + ஊ)",
+          "pronounce": "kū",
+          "example": "cooler"
+        },
+        {
+          "char": "கெ (க் + எ)",
+          "pronounce": "ke",
+          "example": "kept"
+        },
+        {
+          "char": "கே (க் + ஏ)",
+          "pronounce": "kē",
+          "example": "keep"
+        },
+        {
+          "char": "கை (க் + ஐ)",
+          "pronounce": "kai",
+          "example": "Cairo"
+        },
+        {
+          "char": "கொ (க் + ஒ)",
+          "pronounce": "ko",
+          "example": "Congo"
+        },
+        {
+          "char": "கோ (க் + ஓ)",
+          "pronounce": "kō",
+          "example": "cooler"
+        },
+        {
+          "char": "கௌ (க் + ஔ)",
+          "pronounce": "kau",
+          "example": "coward"
+        }
+      ]
+    }
+  }
+}
