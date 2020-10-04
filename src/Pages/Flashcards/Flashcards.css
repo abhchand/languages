@@ -1,0 +1,56 @@
+.flashcard {
+  width: 980px;
+  margin: 75px auto;
+  text-align: center;
+}
+
+@media only screen and (max-width: 980px) {
+  .flashcard {
+    width: 90%;
+  }
+}
+
+.flashcard .value {
+  font-size: 200px;
+  overflow-x: scroll;
+  margin-top: 50px;
+}
+
+.flashcard .answer {
+  font-size: 24px;
+  width: 200px;
+  margin: auto;
+}
+
+.flashcard .answer.hidden .pronunciation {
+  background-color: black;
+  color: black;
+  cursor: pointer;
+}
+.flashcard .answer.hidden .example {
+  background-color: black;
+  color: black;
+  cursor: pointer;
+}
+.flashcard .answer .instructions {
+  font-size: 24px;
+}
+
+.flashcard .next-btn {
+  font-weight: 600;
+  margin-top: 25px;
+  width: 150px;
+  height: 50px;
+  line-height: 1px;
+  border: 1px yellow solid;
+  cursor: pointer;
+  font-size: 24px;
+
+  -webkit-transition: 0.15s ease-in-out;
+  -moz-transition: 0.15s ease-in-out;
+  -o-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
+
+  color: yellow;
+  background-color: transparent;
+}
