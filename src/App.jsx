@@ -10,8 +10,8 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/flashcards" component={Flashcards} />
+          <Route path="/languages/" exact component={Home} />
+          <Route path="/languages/flashcards" component={Flashcards} />
         </Switch>
       </BrowserRouter>
     );
