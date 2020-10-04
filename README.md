@@ -10,3 +10,10 @@ https://abhchand.me/languages
 yarn install
 yarn run start
 ```
+
+# Build
+
+
+```
+yarn run build
+```
