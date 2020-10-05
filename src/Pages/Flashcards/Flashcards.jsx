@@ -94,11 +94,13 @@ class Flashcards extends React.Component {
           <NavLink to={`/languages/${this.language}/letters`}><input type="button" value={"View as list"} /></NavLink>
         </div>
 
+        <h1>{`${this.language} letters`}</h1>
+        <div className="counter">{currentIndex + 1} of {this.state.cards.length}</div>
+
         <div className="value">{card.char}</div>
 
         {this.state.isAnswerHidden ? this.renderHidden() : this.renderAnswer(card)}
 
-        <div className="counter">{currentIndex + 1} of {this.state.cards.length}</div>
         <input className="prev" type="button" onClick={this.prevCard} value={"← Prev"} />
         <input className="next" type="button" onClick={this.nextCard} value={"Next →"} />
       </div>
