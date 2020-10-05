@@ -14,7 +14,7 @@ class Home extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="content">
         <h2>Tamil</h2>
           <p>Lettters</p>
           <ul>
