@@ -98,8 +98,8 @@ class Flashcards extends React.Component {
         {this.state.isAnswerHidden ? this.renderHidden() : this.renderAnswer(card)}
 
         <div className="counter">{currentIndex + 1} of {this.state.cards.length}</div>
-        <input type="button" onClick={this.prevCard} value={"← Prev"} />
-        <input type="button" onClick={this.nextCard} value={"Next →"} />
+        <input className="prev" type="button" onClick={this.prevCard} value={"← Prev"} />
+        <input className="next" type="button" onClick={this.nextCard} value={"Next →"} />
       </div>
     );
   }
