@@ -5,242 +5,242 @@
         {
           "char": "க்",
           "pronounce": "k",
-          "example": "kit"
+          "example": "<em>k</em>it"
         },
         {
           "char": "ங்",
           "pronounce": "ṅ",
-          "example": "noon"
+          "example": "<em>n</em>oon"
         },
         {
           "char": "ச்",
           "pronounce": "c",
-          "example": "cow"
+          "example": "<em>c</em>ow"
         },
         {
           "char": "ஞ்",
           "pronounce": "ñ",
-          "example": "Canyon"
+          "example": "Ca<em>ny</em>on"
         },
         {
           "char": "ட்",
           "pronounce": "ṭ",
-          "example": "toy"
+          "example": "<em>t</em>oy"
         },
         {
           "char": "ண்",
           "pronounce": "ṇ",
-          "example": "news"
+          "example": "<em>n</em>ews"
         },
         {
           "char": "த்",
           "pronounce": "t",
-          "example": "time"
+          "example": "<em>t</em>ime"
         },
         {
           "char": "ந்",
           "pronounce": "n",
-          "example": "night"
+          "example": "<em>n</em>ight"
         },
         {
           "char": "ப்",
           "pronounce": "p",
-          "example": "pool"
+          "example": "<em>p</em>ool"
         },
         {
           "char": "ம்",
           "pronounce": "m",
-          "example": "man"
+          "example": "<em>m</em>an"
         },
         {
           "char": "ய்",
           "pronounce": "y",
-          "example": "you"
+          "example": "<em>y</em>ou"
         },
         {
           "char": "ர்",
           "pronounce": "r",
-          "example": "rabbit"
+          "example": "<em>r</em>abbit"
         },
         {
           "char": "ல்",
           "pronounce": "l",
-          "example": "lion"
+          "example": "<em>l</em>ion"
         },
         {
           "char": "வ்",
           "pronounce": "v",
-          "example": "very"
+          "example": "<em>v</em>ery"
         },
         {
           "char": "ழ்",
           "pronounce": "ḻ",
-          "example": "red"
+          "example": "<em>r<em>ed"
         },
         {
           "char": "ள்",
           "pronounce": "ḷ",
-          "example": "look"
+          "example": "<em>l</em>ook"
         },
         {
           "char": "ற்",
           "pronounce": "ṟ",
-          "example": "room"
+          "example": "<em>r</em>oom"
         },
         {
           "char": "ன்",
           "pronounce": "ṉ",
-          "example": "night"
+          "example": "<em>n</em>ight"
         },
         {
           "char": "ஶ்",
           "pronounce": "ś",
-          "example": "show"
+          "example": "<em>s</em>how"
         },
         {
           "char": "ஜ்",
           "pronounce": "j",
-          "example": "joke"
+          "example": "<em>j</em>oke"
         },
         {
           "char": "ஷ்",
           "pronounce": "ṣ",
-          "example": "smile"
+          "example": "<em>s</em>mile"
         },
         {
           "char": "ஸ்",
           "pronounce": "s",
-          "example": "small"
+          "example": "<em>s</em>mall"
         },
         {
           "char": "ஹ்",
           "pronounce": "h",
-          "example": "high"
+          "example": "<em>h</em>igh"
         },
         {
           "char": "க்ஷ்",
           "pronounce": "kṣ",
-          "example": "racks"
+          "example": "rac<em>ks</em>"
         },
         {
           "char": "அ",
           "pronounce": "a",
-          "example": "apple"
+          "example": "<em>a</em>pple"
         },
         {
           "char": "ஆ",
           "pronounce": "ā",
-          "example": "father"
+          "example": "f<em>a</em>ther"
         },
         {
           "char": "இ",
           "pronounce": "i",
-          "example": "tip"
+          "example": "t<em>i</em>p"
         },
         {
           "char": "ஈ",
           "pronounce": "ī",
-          "example": "deep"
+          "example": "d<em>ee</em>p"
         },
         {
           "char": "உ",
           "pronounce": "u",
-          "example": "ultimate"
+          "example": "<em>u</em>ltimate"
         },
         {
           "char": "ஊ",
           "pronounce": "ū",
-          "example": "moon"
+          "example": "m<em>oo</em>n"
         },
         {
           "char": "எ",
           "pronounce": "e",
-          "example": "elephant"
+          "example": "<em>e</em>lephant"
         },
         {
           "char": "ஏ",
           "pronounce": "ē",
-          "example": "weed"
+          "example": "w<em>ee</em>d"
         },
         {
           "char": "ஐ",
           "pronounce": "ai",
-          "example": "Thai"
+          "example": "Th<em>ai</em>"
         },
         {
           "char": "ஒ",
           "pronounce": "o",
-          "example": "opera"
+          "example": "<em>o</em>pera"
         },
         {
           "char": "ஓ",
           "pronounce": "ō",
-          "example": "moon"
+          "example": "m<em>oo</em>n"
         },
         {
           "char": "ஔ",
           "pronounce": "au",
-          "example": "bowl"
+          "example": "b<em>ow</em>l"
         },
         {
           "char": "க (க் + அ)",
           "pronounce": "ka",
-          "example": "cat"
+          "example": "<em>ca</em>t"
         },
         {
           "char": "கா (க் + ஆ)",
           "pronounce": "kā",
-          "example": "cow"
+          "example": "<em>co</em>w"
         },
         {
           "char": "கி (க் + இ)",
           "pronounce": "ki",
-          "example": "kit"
+          "example": "<em>ki</em>t"
         },
         {
           "char": "கீ (க் + ஈ)",
           "pronounce": "kī",
-          "example": "kiwi"
+          "example": "<em>ki</em>wi"
         },
         {
           "char": "கு (க் + உ)",
           "pronounce": "ku",
-          "example": "Kung-fu"
+          "example": "<em>ku</em>ng-fu"
         },
         {
           "char": "கூ (க் + ஊ)",
           "pronounce": "kū",
-          "example": "cooler"
+          "example": "<em>coo</em>ler"
         },
         {
           "char": "கெ (க் + எ)",
           "pronounce": "ke",
-          "example": "kept"
+          "example": "<em>ke</em>pt"
         },
         {
           "char": "கே (க் + ஏ)",
           "pronounce": "kē",
-          "example": "keep"
+          "example": "<em>kee</em>p"
         },
         {
           "char": "கை (க் + ஐ)",
           "pronounce": "kai",
-          "example": "Cairo"
+          "example": "<em>Cai</em>ro"
         },
         {
           "char": "கொ (க் + ஒ)",
           "pronounce": "ko",
-          "example": "Congo"
+          "example": "<em>Co</em>ngo"
         },
         {
           "char": "கோ (க் + ஓ)",
           "pronounce": "kō",
-          "example": "cooler"
+          "example": "<em>coo</em>ler"
         },
         {
           "char": "கௌ (க் + ஔ)",
           "pronounce": "kau",
-          "example": "coward"
+          "example": "<em>cow</em>ard"
         }
       ]
     }
