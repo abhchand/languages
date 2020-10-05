@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import fetchData from '../../shared/fetch-data';
 
 import './Flashcards.css';
@@ -89,8 +90,8 @@ class Flashcards extends React.Component {
     return (
       <div className="flashcard content">
         <div className='nav'>
-          <a href={"/languages"}><input type="button" value={"Home"} /></a>
-          <a href={`/languages/${this.language}/letters`}><input type="button" value={"View as list"} /></a>
+          <NavLink to={'/languages'}><input type="button" value={"Home"} /></NavLink>
+          <NavLink to={`/languages/${this.language}/letters`}><input type="button" value={"View as list"} /></NavLink>
         </div>
 
         <div className="value">{card.char}</div>

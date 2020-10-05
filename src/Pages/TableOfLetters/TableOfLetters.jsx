@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import fetchData from '../../shared/fetch-data';
 
 import './TableOfLetters.css';
@@ -36,8 +37,8 @@ class TableOfLetters extends React.Component {
     return (
       <div className="content">
         <div className='table-of-letters__nav'>
-          <a href={"/languages"}><input type="button" value={"Home"} /></a>
-          <a href={`/languages/${this.language}/letters/flashcards`}><input type="button" value={"View as flashcards"} /></a>
+          <NavLink to={'/languages'}><input type="button" value={"Home"} /></NavLink>
+          <NavLink to={`/languages/${this.language}/letters/flashcards`}><input type="button" value={"View as flashcards"} /></NavLink>
         </div>
 
         <h1>{`${this.language} letters`}</h1>
