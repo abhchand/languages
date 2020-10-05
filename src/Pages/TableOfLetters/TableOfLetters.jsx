@@ -41,9 +41,9 @@ class TableOfLetters extends React.Component {
             this.state.cards.map(card => {
               return (
                 <tr>
-                  <th>{card.char}</th>
-                  <th>{card.pronounce}</th>
-                  <th>{card.example}</th>
+                  <td>{card.char}</td>
+                  <td>{card.pronounce}</td>
+                  <td>{card.example}</td>
                 </tr>
               );
             })
