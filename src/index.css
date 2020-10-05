@@ -49,3 +49,15 @@ input[type='button'] {
   color: #bef992;
   background-color: transparent;
 }
+
+.content {
+  width: 980px;
+  margin: 75px auto;
+  text-align: center;
+}
+
+@media only screen and (max-width: 980px) {
+  .content {
+    width: 90%;
+  }
+}
