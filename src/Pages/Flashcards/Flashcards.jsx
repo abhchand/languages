@@ -28,7 +28,7 @@ class Flashcards extends React.Component {
   }
 
   componentDidMount() {
-    this.fetchData();
+    this.fetchData(true);
   }
 
   nextCard() {

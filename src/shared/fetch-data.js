@@ -1,6 +1,6 @@
 import shuffle from './shuffle';
 
-function fetchData() {
+function fetchData(shouldShuffle = false) {
   const self = this;
 
   this.setState({ isLoading: true });
@@ -10,7 +10,7 @@ function fetchData() {
     then(function(result) {
       const cards = JSON.parse(JSON.stringify(result.data[self.language].alphabet));
       self.setState({
-        cards: shuffle(cards),
+        cards: shouldShuffle ? shuffle(cards) : cards,
         isLoading: false,
         currentIndex: 0
       });
