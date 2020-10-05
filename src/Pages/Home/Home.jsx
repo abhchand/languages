@@ -14,12 +14,14 @@ class Home extends React.Component {
 
   render() {
     return (
-      <div className="content">
-        <h2>Tamil</h2>
+      <div className="home content">
+        <h1>Languages</h1>
+
+        <h3>Tamil</h3>
           <p>Lettters</p>
           <ul>
-            <li><NavLink to={'/languages/tamil/letters'}>list</NavLink></li>
-            <li><NavLink to={'/languages/tamil/letters/flashcards'}>flashcards</NavLink></li>
+            <li><NavLink to={'/languages/tamil/letters'}>View as list</NavLink></li>
+            <li><NavLink to={'/languages/tamil/letters/flashcards'}>View as flashcards</NavLink></li>
           </ul>
       </div>
     );
