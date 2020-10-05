@@ -70,7 +70,7 @@ class Flashcards extends React.Component {
       <div className="flashcard content">
         <div className='nav'>
           <a href={"/languages"}><input type="button" value={"Home"} /></a>
-          <a href={`/languages/${this.language}/letters`}><input type="button" value={"View full list"} /></a>
+          <a href={`/languages/${this.language}/letters`}><input type="button" value={"View as list"} /></a>
         </div>
 
         <div className="value">{card.char}</div>
