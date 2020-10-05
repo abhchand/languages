@@ -18,6 +18,14 @@ b, em, strong {
   color: chartreuse;
 }
 
+a {
+  color: #bef992;
+}
+
+a:visited {
+  color: #bef992;
+}
+
 th {
   font-size: 24px;
 }
