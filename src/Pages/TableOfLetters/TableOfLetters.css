@@ -13,3 +13,11 @@
 .content table {
   width: 100%;
 }
+
+.table-of-letters__nav {
+  margin-bottom: 50px;
+}
+
+.table-of-letters__nav a:first-child {
+  margin-right: 10px;
+}

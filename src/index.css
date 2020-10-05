@@ -30,3 +30,22 @@ table tr:hover {
   background-color: #5fb9b0;
   color: white;
 }
+
+input[type='button'] {
+  font-weight: 600;
+  margin-top: 25px;
+  min-width: 150px;
+  height: 50px;
+  line-height: 1px;
+  border: 1px #bef992 solid;
+  cursor: pointer;
+  font-size: 24px;
+
+  -webkit-transition: 0.15s ease-in-out;
+  -moz-transition: 0.15s ease-in-out;
+  -o-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
+
+  color: #bef992;
+  background-color: transparent;
+}

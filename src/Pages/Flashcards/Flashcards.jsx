@@ -76,8 +76,8 @@ class Flashcards extends React.Component {
         </div>
 
         <div class="counter">{currentIndex + 1} of {this.state.cards.length}</div>
-        <input class="next-btn" type="button" onClick={this.prevCard} value={"Prev"} />
-        <input class="next-btn" type="button" onClick={this.nextCard} value={"Next"} />
+        <input type="button" onClick={this.prevCard} value={"Prev"} />
+        <input type="button" onClick={this.nextCard} value={"Next"} />
       </div>
     );
   }
