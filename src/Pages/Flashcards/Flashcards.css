@@ -14,27 +14,23 @@
   overflow-x: scroll;
   margin-top: 50px;
 }
-
-.flashcard .answer {
-  font-size: 24px;
+.flashcard .hidden {
   width: 200px;
-  margin: auto;
-}
+  height: 100px;
+  font-size: 24px;
+  margin: 20px auto;
 
-.flashcard .answer.hidden .pronunciation {
   background-color: black;
-  color: black;
   cursor: pointer;
+  line-height: 100px;
 }
-.flashcard .answer.hidden .example {
-  background-color: black;
-  color: black;
-  cursor: pointer;
+.flashcard .answer {
+  width: 200px;
+  height: 100px;
+  font-size: 24px;
+  margin: 20px auto;
 }
 .flashcard .answer .example em {
   font-style: normal;
   font-weight: 700;
-}
-.flashcard .answer .instructions {
-  font-size: 24px;
 }

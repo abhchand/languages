@@ -14,6 +14,8 @@ class Flashcards extends React.Component {
     this.prevCard = this.prevCard.bind(this);
     this.revealAnswer = this.revealAnswer.bind(this);
     this.formatExample = this.formatExample.bind(this);
+    this.renderHidden = this.renderHidden.bind(this);
+    this.renderAnswer = this.renderAnswer.bind(this);
 
     this.language = props.match.params.language;
 
@@ -63,6 +65,19 @@ class Flashcards extends React.Component {
     return <span dangerouslySetInnerHTML={{__html: card.example }}></span>;
   }
 
+  renderHidden() {
+    return <div className={'hidden'} onClick={this.revealAnswer}>Click to reveal</div>;
+  }
+
+  renderAnswer(card) {
+    return (
+      <div className={'answer'}>
+        <p className="pronunciation">{card.pronounce}</p>
+        <p className="example">As in: {this.formatExample(card)}</p>
+      </div>
+    );
+  }
+
   render() {
     if (this.state.isLoading) {
       return <h1>Loading...</h1>;
@@ -79,11 +94,8 @@ class Flashcards extends React.Component {
         </div>
 
         <div className="value">{card.char}</div>
-        <div className={`answer ${this.state.isAnswerHidden ? 'hidden' : ' '}`}>
-          <p className="pronunciation" onClick={this.revealAnswer}>{card.pronounce}</p>
-          <p className="example" onClick={this.revealAnswer}>As in: {this.formatExample(card)}</p>
-          <p className="instructions">{this.state.isAnswerHidden ? 'Click to reveal' : ''}</p>
-        </div>
+
+        {this.state.isAnswerHidden ? this.renderHidden() : this.renderAnswer(card)}
 
         <div className="counter">{currentIndex + 1} of {this.state.cards.length}</div>
         <input type="button" onClick={this.prevCard} value={"← Prev"} />
