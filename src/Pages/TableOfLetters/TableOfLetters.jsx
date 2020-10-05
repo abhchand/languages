@@ -29,7 +29,7 @@ class TableOfLetters extends React.Component {
     }
 
     return (
-      <div class="content">
+      <div className="content">
         <div className='table-of-letters__nav'>
           <a href={"/languages"}><input type="button" value={"Home"} /></a>
           <a href={`/languages/${this.language}/letters/flashcards`}><input type="button" value={"View as flashcards"} /></a>

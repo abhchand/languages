@@ -67,20 +67,20 @@ class Flashcards extends React.Component {
     const card = this.state.cards[currentIndex];
 
     return (
-      <div class="flashcard content">
+      <div className="flashcard content">
         <div className='nav'>
           <a href={"/languages"}><input type="button" value={"Home"} /></a>
           <a href={`/languages/${this.language}/letters`}><input type="button" value={"View full list"} /></a>
         </div>
 
-        <div class="value">{card.char}</div>
-        <div class={`answer ${this.state.isAnswerHidden ? 'hidden' : ' '}`}>
-          <p class="pronunciation" onClick={this.revealAnswer}>{card.pronounce}</p>
-          <p class="example" onClick={this.revealAnswer}>As in: {card.example}</p>
-          <p class="instructions">{this.state.isAnswerHidden ? 'Click to reveal' : ''}</p>
+        <div className="value">{card.char}</div>
+        <div className={`answer ${this.state.isAnswerHidden ? 'hidden' : ' '}`}>
+          <p className="pronunciation" onClick={this.revealAnswer}>{card.pronounce}</p>
+          <p className="example" onClick={this.revealAnswer}>As in: {card.example}</p>
+          <p className="instructions">{this.state.isAnswerHidden ? 'Click to reveal' : ''}</p>
         </div>
 
-        <div class="counter">{currentIndex + 1} of {this.state.cards.length}</div>
+        <div className="counter">{currentIndex + 1} of {this.state.cards.length}</div>
         <input type="button" onClick={this.prevCard} value={"← Prev"} />
         <input type="button" onClick={this.nextCard} value={"Next →"} />
       </div>
