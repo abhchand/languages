@@ -5,6 +5,11 @@
   width: 100%;
 }
 
+.content table tr td em {
+  font-style: normal;
+  font-weight: 700;
+}
+
 .table-of-letters__nav {
   margin-bottom: 50px;
 }

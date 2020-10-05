@@ -10,6 +10,7 @@ class TableOfLetters extends React.Component {
     super(props);
 
     this.fetchData = fetchData.bind(this);
+    this.formatExample = this.formatExample.bind(this);
 
     this.language = props.match.params.language;
 
@@ -21,6 +22,10 @@ class TableOfLetters extends React.Component {
 
   componentDidMount() {
     this.fetchData();
+  }
+
+  formatExample(card) {
+    return <td dangerouslySetInnerHTML={{__html: card.example }}></td>;
   }
 
   render() {
@@ -50,7 +55,7 @@ class TableOfLetters extends React.Component {
                 <tr>
                   <td>{card.char}</td>
                   <td>{card.pronounce}</td>
-                  <td>{card.example}</td>
+                  {this.formatExample(card)}
                 </tr>
               );
             })
