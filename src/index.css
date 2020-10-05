@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  background-color: #282922;
-  color: #26DBF2;
+  background-color: #2b1f31;
+  color: #5fb9b0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -16,4 +16,17 @@ code {
 
 b, em, strong {
   color: chartreuse;
+}
+
+th {
+  font-size: 24px;
+}
+
+td {
+  font-size: 22px;
+}
+
+table tr:hover {
+  background-color: #5fb9b0;
+  color: white;
 }
