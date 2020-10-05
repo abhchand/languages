@@ -10,10 +10,16 @@
 }
 
 .flashcard .value {
-  font-size: 200px;
+  font-size: 12vw;
   overflow-x: scroll;
   margin-top: 50px;
 }
+@media only screen and (max-width: 980px) {
+  .flashcard .value {
+    font-size: 18vw;
+  }
+}
+
 .flashcard .hidden {
   width: 200px;
   height: 100px;
