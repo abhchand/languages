@@ -13,6 +13,7 @@ class Flashcards extends React.Component {
     this.nextCard = this.nextCard.bind(this);
     this.prevCard = this.prevCard.bind(this);
     this.revealAnswer = this.revealAnswer.bind(this);
+    this.formatExample = this.formatExample.bind(this);
 
     this.language = props.match.params.language;
 
@@ -58,6 +59,10 @@ class Flashcards extends React.Component {
     this.setState({ isAnswerHidden: false });
   }
 
+  formatExample(card) {
+    return <span dangerouslySetInnerHTML={{__html: card.example }}></span>;
+  }
+
   render() {
     if (this.state.isLoading) {
       return <h1>Loading...</h1>;
@@ -76,7 +81,7 @@ class Flashcards extends React.Component {
         <div className="value">{card.char}</div>
         <div className={`answer ${this.state.isAnswerHidden ? 'hidden' : ' '}`}>
           <p className="pronunciation" onClick={this.revealAnswer}>{card.pronounce}</p>
-          <p className="example" onClick={this.revealAnswer}>As in: {card.example}</p>
+          <p className="example" onClick={this.revealAnswer}>As in: {this.formatExample(card)}</p>
           <p className="instructions">{this.state.isAnswerHidden ? 'Click to reveal' : ''}</p>
         </div>
 
