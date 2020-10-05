@@ -68,6 +68,11 @@ class Flashcards extends React.Component {
 
     return (
       <div class="flashcard">
+        <div className='nav'>
+          <a href={"/languages"}><input type="button" value={"Home"} /></a>
+          <a href={`/languages/${this.language}/letters`}><input type="button" value={"View full list"} /></a>
+        </div>
+
         <div class="value">{card.char}</div>
         <div class={`answer ${this.state.isAnswerHidden ? 'hidden' : ' '}`}>
           <p class="pronunciation" onClick={this.revealAnswer}>{card.pronounce}</p>

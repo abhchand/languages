@@ -10,6 +10,14 @@
   }
 }
 
+.flashcard .nav {
+  margin-bottom: 50px;
+}
+
+.flashcard .nav a:first-child {
+  margin-right: 10px;
+}
+
 .flashcard .value {
   font-size: 200px;
   overflow-x: scroll;
